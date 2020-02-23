@@ -1,6 +1,6 @@
 # Planview-proj
 
-## to start
+# To Start
 
 ## npm install on root directory of folder
 
