@@ -5,12 +5,7 @@ import "../styles/SideBarChild.scss";
 //populated with a click event that creates description
 //and an id to find description
 const SideBarChild = ({ id, click, title }) => (
-  <button
-    aria-label="Description Select"
-    id={id}
-    onClick={click}
-    className="sidebar-child-component"
-  >
+  <button id={id} onClick={click} className="sidebar-child-component">
     {title}
   </button>
 );
