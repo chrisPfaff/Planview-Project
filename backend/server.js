@@ -12,7 +12,7 @@ app.get("/api", (req, res, next) => {
     "https://planview-media.s3.us-west-2.amazonaws.com/interview/sessions.json";
   fetch(api).then(item => {
     item.json().then(data => {
-      res.send(data);
+      res.json(data);
     });
   });
 });

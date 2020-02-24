@@ -41,7 +41,7 @@ const Container = () => {
   }, []);
 
   //click event to populate aside items
-  const setAsideClick = e => {
+  const setSideBarClick = e => {
     e.preventDefault();
     setDescription("");
     const tabName = e.target.id;
@@ -55,7 +55,6 @@ const Container = () => {
 
   // click event that sets description in main body
   const setDescriptionClick = e => {
-    console.log(e.target);
     const descriptionId = e.target.getAttribute("data-selector");
     //hook function that will grab description from array that was
     //set when tab was chosen
@@ -65,7 +64,7 @@ const Container = () => {
 
   // renderTab function that grabs data from state
   const renderTabs = tabData.map((item, index, arr) => {
-    return <TrackTab id={item} title={item} click={setAsideClick} />;
+    return <TrackTab id={item} title={item} click={setSideBarClick} />;
   });
 
   // renders sidebar with whatever tab you clicked
