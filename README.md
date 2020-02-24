@@ -4,6 +4,8 @@
 
 ## Clone repository to local machine
 
+### Run <code>https://github.com/chrisPfaff/Planview-Project.git</code> in directory where you would want project
+
 ## Install dependencies
 
 ### Run <code>npm install</code> at root of directory
