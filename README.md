@@ -8,7 +8,7 @@
 
 ## Install dependencies
 
-### Navigato to project root and run <code>npm install</code> at root of directory
+### Navigate to project root and run <code>npm install</code> at root of directory
 
 ## Create build
 
