@@ -1,4 +1,4 @@
-import React from "react";
+import React from "./node_modules/react";
 import "../styles/Logo.scss";
 
 const Logo = () => {
@@ -7,7 +7,7 @@ const Logo = () => {
       <img
         className="logo"
         src="https://d1ru3055gppavs.cloudfront.net/img/logo-planview-full-color.svg"
-        alt="Planview Incorporated"
+        alt="Planview incorporated"
       />
       <br />
       <span className="logo-text">Video Archive</span>
