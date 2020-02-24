@@ -71,11 +71,7 @@ const Container = () => {
   // renders sidebar with whatever tab you clicked
   const renderAside = sideBarData.map((item, index, arr) => {
     return (
-      <SideBarChild
-        id={item.Track.Title}
-        title={item.Title}
-        click={setDescriptionClick}
-      />
+      <SideBarChild id={index} title={item.Title} click={setDescriptionClick} />
     );
   });
 
