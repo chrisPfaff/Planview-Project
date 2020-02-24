@@ -4,7 +4,7 @@
 
 ## Clone repository to local machine
 
-### Run <code>https://github.com/chrisPfaff/Planview-Project.git</code> in directory where you would want project
+### Run <code>git clone https://github.com/chrisPfaff/Planview-Project.git</code> in directory where you would want project
 
 ## Install dependencies
 
@@ -20,4 +20,4 @@
 
 ## navigate to https://localhost:8080
 
-### must have node installed on machine
+### must have node/npm installed on machine
