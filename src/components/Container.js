@@ -55,12 +55,12 @@ const Container = () => {
 
   // click event that sets description in main body
   const setDescriptionClick = e => {
-    e.preventDefault();
-    const descriptionId = e.target.id;
-
+    console.log(e.target);
+    const descriptionId = e.target.getAttribute("data-selector");
     //hook function that will grab description from array that was
     //set when tab was chosen
     setDescription(sideBarData[descriptionId].Description);
+    e.preventDefault();
   };
 
   // renderTab function that grabs data from state
@@ -70,8 +70,14 @@ const Container = () => {
 
   // renders sidebar with whatever tab you clicked
   const renderAside = sideBarData.map((item, index, arr) => {
+    console.log(item);
     return (
-      <SideBarChild id={index} title={item.Title} click={setDescriptionClick} />
+      <SideBarChild
+        key={item.Id}
+        id={index}
+        title={item.Title}
+        click={setDescriptionClick}
+      />
     );
   });
 
