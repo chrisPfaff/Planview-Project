@@ -1,0 +1,16 @@
+@import "./Variables.scss";
+
+.sidebar-child-component {
+  padding: 15px;
+  min-width: 220px;
+  max-width: 220px;
+  border: none;
+  border-bottom: 1px solid $light-grey;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    background-color: $sidebar-focus-color;
+  }
+}

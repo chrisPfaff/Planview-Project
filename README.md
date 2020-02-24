@@ -1,4 +1,4 @@
-# Planview-proj
+# Planview-Technical-Project
 
 # To Start
 
@@ -15,3 +15,5 @@
 ### creates local server
 
 ## navigate to https://localhost:8080
+
+### must have node installed on machine

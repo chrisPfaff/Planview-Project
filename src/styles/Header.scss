@@ -1,0 +1,17 @@
+@import "./Variables.scss";
+
+.header {
+  &-top {
+    padding: 10px;
+    background: linear-gradient(0deg, $header-dark 50%, $header-light 50%);
+    &-logo {
+      width: 60px;
+    }
+  }
+  &-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
