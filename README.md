@@ -2,17 +2,19 @@
 
 # To Start
 
-## npm install on root directory of folder
+## Clone repository to local machine
 
-### install dependencies
+## Install dependencies
 
-## npm run build
+### Run <code>npm install</code> at root of directory
 
-### create dist folder and build of project
+## Create build
 
-## npm run start
+### Run <code>npm run build</code> at root of directory
 
-### creates local server
+## Create local server
+
+### Run <code>npm run start</code> at root of directory
 
 ## navigate to https://localhost:8080
 
